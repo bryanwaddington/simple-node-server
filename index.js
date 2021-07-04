@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({hi: "there, Bryan"});
+  console.log(provess.env);
+  res.send({ 'process.env': provess.env });
 });
 
 const PORT = process.env.PORT;
