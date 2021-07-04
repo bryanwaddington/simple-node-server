@@ -6,4 +6,4 @@ app.get('/', (req, res) => {
 });
 
 const PORT = process.env.PORT;
-app.listen(PORT || 3000);
+app.listen(PORT || 3030);
